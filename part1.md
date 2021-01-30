@@ -7,4 +7,6 @@
 <p> 150 </p>
 <p> [50, 100, 150] </p>
 
-5. It will throw a reference error. 
+In the function console, the variables **i**, **discountedPrice**, and **finalPrice** are all function-level variables. They do not have block scope, so all variables will be printed without errors. **console.log(i)** prints the number of elements in **prices** as the for loop will loop for each element in prices. **console.log(discountedPrices)** prints last value of **discountedPrice**, as line 12 lies outside the for loop. 
+5. It will throw a reference error. The variable **i** is declared using **let** and is loop-local, therefore it cannot be visible beyond the for loop declaration.  
+6. This will throw a refernece error. Like Line 11, discountedPrice is declared within the for loop and it is block-local, therefore it cannot be visible beyond the for loop.
