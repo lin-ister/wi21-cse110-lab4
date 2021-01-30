@@ -26,4 +26,46 @@ In the function console, the variables **i**, **discountedPrice**, and **finalPr
 
 11. Line 12 will throw a type error. Variables declared with **let** cannot be reassigned with a new value. 
 
-12. The function will throw a variety of errors as console logs are caught by the block scope errors. Variables declared with **const** 
+12. The function will throw a variety of errors as console logs are caught by the block scope errors. Variables declared with **const** and **let** all have block scope, in which they are not visible beyond the blocks they are declared in. Also, **const** cannot be reassigned a new value so **finalPrice** will not be able to change from zero to anything. The function will not be able to return anything. 
+
+13. 
+A. alert(student.name).
+B. alert(student['Grad Year']);
+C. alert(student.greeting);
+D. alert(student['Favorite Teacher']);
+E. alert(student.courseLoad[0]);
+
+14. 
+A. 32, "2" is added as a string to the string "3".
+B. 1, **3** is converted into a int to be subtracted as "-" cannot be used on strings. 
+C. 3, null has the same value as zero, so nothing is added. 
+D. 3, null as a string has no value, so nothing is added to the string "3".
+E. 4, true has a value of **1**, while false has a value of **0**, so **1** is added to **3**
+F. 0, false itself has a value of 0 and that added to nothing will be 0.
+G. 3undefined, "undefined" is converted into a string and concatenated with **3**.
+H. undefined, as stated before, the subtraction of a string does not work. A string subtraction. 
+
+15. 
+A. True, '2' is converted to a integer 2, and it in fact greater than 1. 
+B. False, '2' is really compared with '1', so this outputs false. 
+C. True, '2' is converted into an integer 2 and compared, so the values are the same.
+D. False, '2' is a string type and 2 is an integer so the type do no match using the === operator. 
+E. False, true has a value of 1. Anything besides one will output false. 
+F. True, since true and Boolean(2) are both boolean types and have a value of true. 
+
+16. === has strict equality without conversion of type. So === will compare two values, will only output true if both the type and value are the same. While == will usually convert values into integers to be compared. 
+
+17. Goodbye, both the if and else if statement check for true statements. 2 is the not the same value as true, which has a value of 1. so the last condition will be fulfilled as the other two did not get fulfilled.
+
+18. uploaded
+
+19. [ 6, 8, 10 ], for each value, let y = x + 2, then y is multiplied by 2. doSomething is called before the value is multiplied by 2. 
+
+20. uploaded
+
+
+21. 
+1
+4
+3
+2
